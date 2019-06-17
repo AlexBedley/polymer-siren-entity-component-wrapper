@@ -1,0 +1,12 @@
+{
+  "name": "test-hm-component",
+  "version": "1.0.0",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0"
+  },
+  "devDependencies": {
+    "@polymer/iron-demo-helpers": "^3.0.0",
+    "@polymer/test-fixture": "^4.0.2",
+    "polymer-cli": "^1.9.5"
+  }
+}
