@@ -1,5 +1,5 @@
 {
-  "name": "test-hm-component",
+  "name": "polymer-siren-entity-component-wrapper",
   "version": "1.0.0",
   "dependencies": {
     "@polymer/polymer": "^3.0.0"
