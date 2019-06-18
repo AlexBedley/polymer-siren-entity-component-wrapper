@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+		<title>polymer-siren-entity-component-wrapper demo</title>
+		<script type="module">
+			import '@polymer/iron-demo-helpers/demo-pages-shared-styles';
+			import '@polymer/iron-demo-helpers/demo-snippet';
+			import {html} from '@polymer/polymer/lib/utils/html-tag.js';
+			const style = html`
+				<custom-style>
+					<style is="custom-style" include="demo-pages-shared-styles"></style>
+				</custom-style>
+				`;
+			document.head.appendChild(style.content);
+		</script>
+
+		<script type="module" src="../polymer-siren-entity-component-wrapper.js"></script>
+		<script type="module" src="./demo-attribute-printer.js"></script>
+
+		<style>
+			html {
+				font-size: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="vertical-section-container centered">
+			<h3>polymer-siren-entity-component-wrapper</h3>
+			<demo-snippet>
+				<template>
+					<polymer-siren-entity-component-wrapper>
+						<demo-attribute-printer></demo-attribute-printer>
+          </polymer-siren-entity-component-wrapper>
+				</template>
+			</demo-snippet>
+		</div>
+	</body>
+</html>
